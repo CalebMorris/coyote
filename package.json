@@ -1,0 +1,32 @@
+{
+  "name": "coyote",
+  "version": "0.1.0",
+  "description": "Rabbit consumer",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/colonyamerican/coyote"
+  },
+  "keywords": [
+    "rabbit.js",
+    "rabbitmq"
+  ],
+  "author": "Colony American Homes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colonyamerican/coyote/issues"
+  },
+  "homepage": "https://github.com/colonyamerican/coyote",
+  "dependencies": {
+    "event-stream": "^3.1.7",
+    "finite-spaghetti-machine": "^1.0.1",
+    "isuri": "0.0.2",
+    "joi": "^4.8.0",
+    "lodash": "^2.4.1",
+    "rabbit.js": "^0.4.2",
+    "through": "^2.3.6"
+  }
+}
