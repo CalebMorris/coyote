@@ -11,10 +11,7 @@ designed to simplify your workflow and reduce boilerplate.
 
 #### Signals
 
-`ready`, `job`, `debug`, `response`, `data`  
-`jobFailure`, `receiveJob`, `completeJob`  
-`pause`, `resume`  
-`socketClose`, `socketConnect`  
+`ready`, `job`, `response`, `data`, `jobFailure`
 
 ### Example
 
