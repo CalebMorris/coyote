@@ -3,6 +3,19 @@
 An abstraction layer on top of [RabbitJS](https://github.com/squaremo/rabbit.js)
 designed to simplify your workflow and reduce boilerplate.
 
+### IO
+
+#### Types
+
+`SUBSCRIBE`, `PULL`, `REPLY`, `WORKER`
+
+#### Signals
+
+`ready`, `job`, `debug`, `response`, `data`  
+`jobFailure`, `receiveJob`, `completeJob`  
+`pause`, `resume`  
+`socketClose`, `socketConnect`  
+
 ### Example
 
 #### Callback API
